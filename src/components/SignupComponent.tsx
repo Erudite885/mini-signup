@@ -1,13 +1,13 @@
 import React from 'react'
-import Form from './form'
 import Description from './Description'
+import Form from './form'
 
 const SignUpComponent: React.FC = () => {
   return (
-      <section className='flex '>
+      <div className='flex items-center justify-center md:justify-between flex-col md:flex-row md:pl-12 md:pr-20'>
           <Description />
           <Form />
-    </section>
+    </div>
   )
 }
 
